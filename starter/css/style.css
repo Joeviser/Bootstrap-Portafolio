@@ -1,6 +1,7 @@
 /* Global styles ============= */
 :root{
     --lt-grey:lightgrey;
+    --lt-blue:lightblue;
     --font-fam:'Arial', sans-serif;
   }
 html,
@@ -18,7 +19,6 @@ h1, h2, h3 , h4, h5, h6 {
   
 /* Navigation bar */
 
-/* General */
 .customNav {
     position: fixed;
     width: 100%;
@@ -27,7 +27,7 @@ h1, h2, h3 , h4, h5, h6 {
 
   }
   .navbar-light {
-    background-color:lightblue !important;
+    background-color: var(--lt-blue) !important;
    /* background-color: #2a607c !important;*/
     border: none !important;
     border-width:0!important;
@@ -50,14 +50,7 @@ h1, h2, h3 , h4, h5, h6 {
     
   }
 
-  /*a {
-    color: var(--lt-grey);
-    transition: all .35s;
-  }
-  
-  a:hover, a:focus {
-    color: var(--lt-grey);
-  }*/
+
   /* Jumbotron  */
 .portafolioBackground {
     background-image: url(../images/background1.jpg);
@@ -96,7 +89,7 @@ h1, h2, h3 , h4, h5, h6 {
   }
   .sectionHeading{
     text-align: center;
-    background-color: lightgrey;
+    background-color: var(--lt-grey);
     
     
   }
@@ -134,7 +127,7 @@ h1, h2, h3 , h4, h5, h6 {
     padding-right: 15px;
     width: 100px;
   }
-
+/*-----------FOOTER-------*/
 
   footer{
     position: relative;
@@ -147,7 +140,7 @@ h1, h2, h3 , h4, h5, h6 {
 
   }
 form{
-    background-color: lightblue;
+    background-color: var(--lt-blue);
 }
 
 .social-icons {
@@ -163,3 +156,14 @@ footer img{
     padding-right: 2px;
     width: 30px;
 }
+a {
+    background-color: powderblue;
+    transition: background-color 0.5s;
+  }
+  
+  a:hover {
+    background-color: grey;
+  }
+  .btn:hover {
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  }
