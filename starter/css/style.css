@@ -80,3 +80,43 @@ h1, h2, h3 , h4, h5, h6 {
     padding: 15px;
     width: 200px;
   }
+
+  /*---------CARDS-My Work section-----------*/
+
+  .cardContainer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .card {
+    margin: 50px auto;
+    
+  }
+  .mywork{
+    padding: 0px 30px 30px 30px;
+  }
+  .sectionHeading{
+    text-align: center;
+    /*background-color: lightblue;*/
+    
+    
+  }
+  .content{
+    padding: 50px;
+    /*background-color: rgb(234, 231, 231);*/
+  
+  }
+  .valueProp{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  
+  }
+  .sideAccent{
+    background: #007bff;
+    width: 15px;
+  }
+  .imageContainer{
+    padding: 50px;
+  }
+  .imageContainer img{
+    width: 100%;
+  }
